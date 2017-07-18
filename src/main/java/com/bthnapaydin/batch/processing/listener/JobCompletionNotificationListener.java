@@ -17,7 +17,6 @@ import java.util.List;
 @RequiredArgsConstructor
 public class JobCompletionNotificationListener extends JobExecutionListenerSupport {
     private final JdbcTemplate jdbcTemplate;
-    private final DataSource dataSource;
 
     @Override
     public void afterJob(JobExecution jobExecution) {

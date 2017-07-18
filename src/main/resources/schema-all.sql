@@ -6,5 +6,3 @@ CREATE TABLE people (
   first_name VARCHAR(20),
   last_name  VARCHAR(20)
 );
-
-INSERT INTO people (person_id, first_name, last_name) VALUES (1, 'Batuhan', 'Apaydın');
